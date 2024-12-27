@@ -5,19 +5,18 @@ import { LibraryContext } from "../context/LibraryContext";
 const BookDetails = () => {
   const { bookId } = useParams();
   const { books } = useContext(LibraryContext);
-  const book = books.find((r) => r.id === bookId);
+  const book = books.find((r) => r.id === parseInt(bookId));
 
   if (!book) {
-    return <h2>Libro no encontrado</h2>;
+    return <h3>Libro no encontrado</h3>;
   }
-
-  console.log(book.name);
 
   return (
     <div className="book-details">
-      <h2 className="book-name">{book.name}</h2>
-      <p className="book-cuisine">Cocina: {book.cuisine}</p>
-      <p className="book-rating">Calificación: {book.rating} / 5</p>
+      <h2 className="book-name">{book.libro} ({book.titulo_original})</h2>
+      <p><strong>Autor:</strong> {book.autor}</p>
+      <p><strong>Fecha de lanzamiento:</strong> {book.fecha_de_lanzamiento}</p>
+      <p><strong>Descripción:</strong> {book.descripcion}</p>
     </div>
   );
 };

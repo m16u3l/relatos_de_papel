@@ -1,15 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const Book = ({ id, name, cuisine, rating }) => {
+export const Book = ({ id, libro, titulo_original, fecha_de_lanzamiento, autor, descripcion }) => {
   return (
-    <div className="card">
-      <h3>{name}</h3>
-      <p>Cocina: {cuisine}</p>
-      <p>Calificación: {rating} / 5</p>
-      <Link to={`/books/${id}`}>
-        <button>Ver detalles</button>
-      </Link>
-    </div>
+    <Link to={`/books/${id}`} className="card">
+      <h3>{libro} ({titulo_original})</h3>
+      <p><strong>Autor:</strong> {autor}</p>
+      <p><strong>Fecha de lanzamiento:</strong> {fecha_de_lanzamiento}</p>
+      <p><strong>Descripción:</strong> {descripcion}</p>
+    </Link>
   );
 };

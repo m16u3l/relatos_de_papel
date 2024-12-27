@@ -12,19 +12,20 @@ export const Overview = () => {
       <h2 className="center-text">Libros Disponibles</h2>
       <div className="book-container">
         {books.length > 0 ? (
-          books.map((book, index) => (
+          books.map((book) => (
             <Book
-              key={index}
+              key={book.id}
               id={book.id}
-              name={book.name}
-              cuisine={book.cuisine}
-              rating={book.rating}
+              libro={book.libro}
+              titulo_original={book.titulo_original}
+              fecha_de_lanzamiento={book.fecha_de_lanzamiento}
+              autora={book.autor}
+              descripcion={book.descripcion}
             />
           ))
         ) : (
-          <LinearProgress color="secondary" />
+          <LinearProgress className="linear-progress" />
         )}
-        { }
       </div>
     </div>
   );

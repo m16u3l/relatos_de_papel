@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import useRedirection from "../hooks/useRedirection";
 
 function Landing() {
-  useRedirection("/books", 5000); // Redireccionamos a la vista principal en 5 segundos
+  useRedirection("/books", 5000);
 
   return (
     <div className="landing">
