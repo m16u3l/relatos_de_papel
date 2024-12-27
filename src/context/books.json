@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "libro": "Harry Potter y la piedra filosofal",
+    "titulo_original": "Harry Potter and the Sorcerer's Stone",
+    "fecha_de_lanzamiento": "26 de junio de 1997",
+    "autora": "J. K. Rowling",
+    "descripcion": "El día de su cumpleaños, Harry Potter descubre que es hijo de dos conocidos hechiceros, de los que ha heredado poderes mágicos. Debe asistir a una famosa escuela de magia y hechicería, donde entabla una amistad con dos jóvenes que se convertirán en sus compañeros de aventura. Durante su primer año en Hogwarts, descubre que un malévolo y poderoso mago llamado Voldemort está en busca de una piedra filosofal que alarga la vida de quien la posee."
+  },
+  {
+    "id": 2,
+    "libro": "Harry Potter y la cámara secreta",
+    "titulo_original": "Harry Potter and the chamber of secrets",
+    "fecha_de_lanzamiento": "2 de julio de 1998",
+    "autora": "J. K. Rowling",
+    "descripcion": "Harry Potter y los estudiantes de segundo año investigan una malévola amenaza para sus compañeros de clases de Hogwarts, una amenazante bestia que se esconde dentro del castillo."
+  },
+  {
+    "id": 3,
+    "libro": "Harry Potter y el prisionero de Azkaban",
+    "titulo_original": "Harry Potter and the Prisoner of Azkaban",
+    "fecha_de_lanzamiento": "8 de julio de 1999",
+    "autora": "J. K. Rowling",
+    "descripcion": "El tercer año de estudios de Harry en Hogwarts se ve amenazado por la fuga de Sirius Black de la prisión de Azkaban. Al parecer, se trata de un peligroso mago que fue cómplice de Lord Voldemort y que intentará vengarse de Harry Potter."
+  },
+  {
+    "id": 4,
+    "libro": "Harry Potter y el cáliz de fuego",
+    "titulo_original": "Harry Potter and the Goblet of Fire",
+    "fecha_de_lanzamiento": "8 de julio de 2000",
+    "autora": "J. K. Rowling",
+    "descripcion": "Hogwarts se prepara para el Torneo de los Tres Magos, en el que competirán tres escuelas de hechicería. Para sorpresa de todos, Harry Potter es elegido para participar en la competencia, en la que deberá luchar contra dragones, internarse en el agua y enfrentarse a sus mayores miedos."
+  },
+  {
+    "id": 5,
+    "libro": "Harry Potter y la orden del Fénix",
+    "titulo_original": "Harry Potter and the Order of the Phoenix",
+    "fecha_de_lanzamiento": "21 de junio de 2003",
+    "autora": "J. K. Rowling",
+    "descripcion": "En su quinto año en Hogwarts, Harry descubre que muchos integrantes de la comunidad de magos no conocen la verdad acerca de su encuentro con Lord Voldemort. Cornelius Fudge, ministro de magia, designa a Dolores Umbridge como maestra de defensa contra de las artes oscuras porque cree que el profesor Dumbledore planea apoderarse de su trabajo. Pero sus enseñanzas son inadecuadas, por lo que Harry prepara a los estudiantes para defender la escuela en contra del mal."
+  },
+  {
+    "id": 6,
+    "libro": "Harry Potter y el misterio del príncipe",
+    "titulo_original": "Harry Potter and the Half-Blood Prince",
+    "fecha_de_lanzamiento": "16 de julio de 2005",
+    "autora": "J. K. Rowling",
+    "descripcion": "Harry descubre un poderoso libro y, mientras trata de descubrir sus orígenes, colabora con Dumbledore en la búsqueda de una serie de objetos mágicos que ayudarán en la destrucción de Lord Voldemort."
+  },
+  {
+    "id": 7,
+    "libro": "Harry Potter y las reliquias de la muerte",
+    "titulo_original": "Harry Potter and the Deathly Hallows",
+    "fecha_de_lanzamiento": "21 de julio de 2007",
+    "autora": "J. K. Rowling",
+    "descripcion": "Harry, Ron y Hermione se van a una peligrosa misión para localizar y destruir el secreto de la inmortalidad y destrucción de Voldemort - los Horrocruces. Solos, sin la guía de sus profesores o la protección del Profesor Dumbledore, los tres amigos deben apoyarse el uno en el otro más que nunca. Pero hay Fuerzas Oscuras en medio que amenazan con separarlos. Harry Potter se está acercando cada vez más a la tarea para la que se ha preparado desde el primer día que pisó Hogwarts: la última batalla con Voldemort."
+  },
+  {
+    "id": 8,
+    "libro": "Harry Potter y el legado maldito",
+    "titulo_original": "Harry Potter and the Cursed Child",
+    "fecha_de_lanzamiento": "30 de julio de 2016",
+    "autora": "J. K. Rowling",
+    "descripcion": "El segundo hijo de Harry entró a Hogwarts, pero en Slytherin. Su relación con Harry cada vez es peor y se hizo muy amigo del hijo de Draco, Scorpius Malfoy que se dice que es el hijo de Lord Voldemort"
+  },
+  {
+    "id": 2,
+    "libro": "El señor de los anillos: La comunidad del anillo",
+    "titulo_original": "The Lord of the Rings: The Fellowship of the Ring",
+    "fecha_de_lanzamiento": "29 de julio de 1954",
+    "autor": "J. R. R. Tolkien",
+    "descripcion": "Frodo Bolsón hereda un anillo mágico que contiene un poder oscuro y destructivo. Junto a un grupo de aliados, conocido como la Comunidad del Anillo, debe emprender un peligroso viaje para destruir el anillo en el Monte del Destino antes de que caiga en manos del malvado Señor Oscuro, Sauron."
+  },
+  {
+    "id": 3,
+    "libro": "Crónica de una muerte anunciada",
+    "titulo_original": "Crónica de una muerte anunciada",
+    "fecha_de_lanzamiento": "1981",
+    "autor": "Gabriel García Márquez",
+    "descripcion": "En un pequeño pueblo, se narra la historia del asesinato de Santiago Nasar, un joven acusado de deshonrar a una mujer. A pesar de que todos sabían que iba a ser asesinado, nadie hizo nada por evitarlo. La novela explora temas de honor, destino y la inacción colectiva."
+  },
+  {
+    "id": 4,
+    "libro": "Orgullo y prejuicio",
+    "titulo_original": "Pride and Prejudice",
+    "fecha_de_lanzamiento": "28 de enero de 1813",
+    "autora": "Jane Austen",
+    "descripcion": "La novela cuenta la historia de Elizabeth Bennet, una joven inteligente y decidida que enfrenta las expectativas sociales y familiares de la Inglaterra del siglo XIX. Su relación con el reservado y orgulloso Sr. Darcy evoluciona desde el prejuicio mutuo hasta el amor verdadero."
+  },
+  {
+    "id": 5,
+    "libro": "Cien años de soledad",
+    "titulo_original": "Cien años de soledad",
+    "fecha_de_lanzamiento": "30 de mayo de 1967",
+    "autor": "Gabriel García Márquez",
+    "descripcion": "La historia sigue a la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo. Mezcla realismo mágico con temas como el amor, la soledad y el destino, mientras relata la fundación y caída del pueblo."
+  },
+  {
+    "id": 6,
+    "libro": "1984",
+    "titulo_original": "Nineteen Eighty-Four",
+    "fecha_de_lanzamiento": "8 de junio de 1949",
+    "autor": "George Orwell",
+    "descripcion": "En un mundo distópico controlado por un gobierno totalitario, Winston Smith lucha por encontrar libertad y verdad en medio de la opresión y la vigilancia constante. La novela es una crítica política que explora temas de censura y manipulación."
+  },
+  {
+    "id": 7,
+    "libro": "Matar a un ruiseñor",
+    "titulo_original": "To Kill a Mockingbird",
+    "fecha_de_lanzamiento": "11 de julio de 1960",
+    "autora": "Harper Lee",
+    "descripcion": "La novela cuenta la historia de Scout Finch y su hermano Jem en un pequeño pueblo del sur de Estados Unidos durante la Gran Depresión. Su padre, Atticus Finch, defiende a un hombre negro acusado injustamente de violar a una mujer blanca, explorando temas de racismo e injusticia social."
+  },
+  {
+    "id": 8,
+    "libro": "Don Quijote de la Mancha",
+    "titulo_original": "El ingenioso hidalgo don Quijote de la Mancha",
+    "fecha_de_lanzamiento": "16 de enero de 1605",
+    "autor": "Miguel de Cervantes",
+    "descripcion": "Don Quijote, un hidalgo obsesionado con los libros de caballería, decide convertirse en caballero andante. Acompañado por su fiel escudero, Sancho Panza, vive una serie de aventuras mientras lucha contra molinos de viento y persigue ideales caballerescos en un mundo que ha cambiado."
+  },
+  {
+    "id": 9,
+    "libro": "Los juegos del hambre",
+    "titulo_original": "The Hunger Games",
+    "fecha_de_lanzamiento": "14 de septiembre de 2008",
+    "autora": "Suzanne Collins",
+    "descripcion": "En un futuro distópico, Katniss Everdeen se ofrece como voluntaria para participar en los Juegos del Hambre, un evento televisado en el que los tributos luchan a muerte. La novela explora temas de supervivencia, opresión y rebelión contra un gobierno tiránico."
+  },
+  {
+    "id": 10,
+    "libro": "El gran Gatsby",
+    "titulo_original": "The Great Gatsby",
+    "fecha_de_lanzamiento": "10 de abril de 1925",
+    "autor": "F. Scott Fitzgerald",
+    "descripcion": "La historia sigue a Jay Gatsby, un millonario misterioso que organiza fastuosas fiestas mientras persigue su amor perdido, Daisy Buchanan. La novela examina el sueño americano, la decadencia moral y la obsesión con la riqueza en los años 20."
+  },
+  {
+    "id": 11,
+    "libro": "Frankenstein o el moderno Prometeo",
+    "titulo_original": "Frankenstein; or, The Modern Prometheus",
+    "fecha_de_lanzamiento": "1 de enero de 1818",
+    "autora": "Mary Shelley",
+    "descripcion": "La historia sigue a Víctor Frankenstein, un científico que crea un ser monstruoso a partir de partes humanas. La criatura busca aceptación y venganza, explorando temas como la ética científica, el abandono y la responsabilidad moral."
+  },
+  {
+    "id": 12,
+    "libro": "Las aventuras de Alicia en el país de las maravillas",
+    "titulo_original": "Alice's Adventures in Wonderland",
+    "fecha_de_lanzamiento": "26 de noviembre de 1865",
+    "autor": "Lewis Carroll",
+    "descripcion": "Alicia cae en la madriguera de un conejo y entra en un mundo mágico lleno de criaturas extrañas y situaciones surrealistas. La novela explora la imaginación, la lógica y el absurdo en un cuento fantástico para todas las edades."
+  },
+  {
+    "id": 13,
+    "libro": "La sombra del viento",
+    "titulo_original": "La sombra del viento",
+    "fecha_de_lanzamiento": "2001",
+    "autor": "Carlos Ruiz Zafón",
+    "descripcion": "En la Barcelona de posguerra, un joven llamado Daniel Sempere descubre un misterioso libro en el Cementerio de los Libros Olvidados. Su búsqueda para descubrir el destino del autor lo lleva a un laberinto de secretos, amores perdidos y tragedias."
+  },
+  {
+    "id": 14,
+    "libro": "La ladrona de libros",
+    "titulo_original": "The Book Thief",
+    "fecha_de_lanzamiento": "2005",
+    "autor": "Markus Zusak",
+    "descripcion": "Ambientada en la Alemania nazi, la historia sigue a Liesel Meminger, una niña adoptada que encuentra consuelo robando libros y compartiéndolos con otros. La novela está narrada por la Muerte y explora temas de esperanza en tiempos oscuros."
+  },
+  {
+    "id": 15,
+    "libro": "Rebelión en la granja",
+    "titulo_original": "Animal Farm",
+    "fecha_de_lanzamiento": "17 de agosto de 1945",
+    "autor": "George Orwell",
+    "descripcion": "Una sátira política que representa una granja donde los animales derrocan a los humanos en busca de igualdad, solo para descubrir que algunos animales terminan siendo más iguales que otros. La novela critica los regímenes totalitarios."
+  },
+  {
+    "id": 16,
+    "libro": "El alquimista",
+    "titulo_original": "O Alquimista",
+    "fecha_de_lanzamiento": "1988",
+    "autor": "Paulo Coelho",
+    "descripcion": "La historia sigue a Santiago, un pastor andaluz que emprende un viaje en busca de un tesoro en Egipto. En el camino, aprende lecciones sobre la vida, el destino y la importancia de seguir los sueños propios."
+  },
+  {
+    "id": 17,
+    "libro": "Rayuela",
+    "titulo_original": "Rayuela",
+    "fecha_de_lanzamiento": "1963",
+    "autor": "Julio Cortázar",
+    "descripcion": "Una novela experimental que invita al lector a elegir su propio camino a través de los capítulos. Explora la vida de Horacio Oliveira en París y Buenos Aires, abordando temas de amor, arte y filosofía."
+  },
+  {
+    "id": 18,
+    "libro": "Fahrenheit 451",
+    "titulo_original": "Fahrenheit 451",
+    "fecha_de_lanzamiento": "19 de octubre de 1953",
+    "autor": "Ray Bradbury",
+    "descripcion": "En un futuro distópico donde los libros están prohibidos, Guy Montag trabaja como bombero encargado de quemarlos. Su vida cambia cuando comienza a cuestionar el sistema y a buscar conocimiento en los libros prohibidos."
+  },
+  {
+    "id": 19,
+    "libro": "El retrato de Dorian Gray",
+    "titulo_original": "The Picture of Dorian Gray",
+    "fecha_de_lanzamiento": "1890",
+    "autor": "Oscar Wilde",
+    "descripcion": "La historia sigue a Dorian Gray, un joven cuya belleza se mantiene intacta mientras un retrato suyo envejece y refleja los efectos de sus actos inmorales. La novela explora temas como la vanidad, el hedonismo y la corrupción."
+  },
+  {
+    "id": 20,
+    "libro": "Drácula",
+    "titulo_original": "Dracula",
+    "fecha_de_lanzamiento": "26 de mayo de 1897",
+    "autor": "Bram Stoker",
+    "descripcion": "La historia de Jonathan Harker, quien viaja a Transilvania para encontrarse con el misterioso Conde Drácula. Pronto descubre los oscuros secretos del conde y se embarca en una lucha contra el mal vampírico."
+  }
+]
