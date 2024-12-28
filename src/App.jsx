@@ -1,15 +1,12 @@
 import React from "react";
 import GlobalRouter from "./routes/GlobalRouter";
-import { LibraryContext } from "./context/LibraryContext";
-import { useBooks } from "./hooks/useBooks";
+import { LibraryProvider } from "./context/LibraryContext";
 
 function App() {
-  const books = useBooks();
-
   return (
-    <LibraryContext.Provider value={{ books }}>
+    <LibraryProvider>
       <GlobalRouter></GlobalRouter>
-    </LibraryContext.Provider>
+    </LibraryProvider>
   );
 }
 

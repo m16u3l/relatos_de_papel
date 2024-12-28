@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
-import { LibraryContext } from "../context/LibraryContext";
+import { useBooks } from "../context/LibraryContext";
 
 const BookDetails = () => {
   const { bookId } = useParams();
-  const { books } = useContext(LibraryContext);
+  const { books } = useBooks();
   const book = books.find((r) => r.id === parseInt(bookId));
 
   if (!book) {
