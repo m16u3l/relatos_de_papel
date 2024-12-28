@@ -3,7 +3,8 @@ import { FaSearch } from 'react-icons/fa';
 
 export const SearchBar = ({ onSearch }) => {
   return (
-    <div className='search-bar'>
+    <div className="search-container">
+
       <input
         type="text"
         placeholder="Buscar libro por título..."

@@ -1,17 +1,17 @@
-import React, { useContext, useState } from "react";
+import React from "react";
 import "../styles/styles.css";
 import { Book } from "../components/Book";
 import { LinearProgress } from "@mui/material";
 import { SearchBar } from "../components/SearchBar";
 import { useBooks } from "../context/LibraryContext";
-import { FaSearch } from "react-icons/fa";
 
 export const Overview = () => {
   const { books, searchTerm } = useBooks();
   const { filterBooks } = useBooks();
 
-  const handleSearch = (event) => {
-    filterBooks(event.target.value);
+  const handleSearch = (value) => {
+    debugger
+    filterBooks(value);
   };
   const filteredBooks = books.filter(book =>
     book.libro.toLowerCase().includes(searchTerm.toLowerCase())
@@ -21,15 +21,7 @@ export const Overview = () => {
     <div className="overview">
       <div className="header-section">
         <h2 className="section-title">Libros Disponibles</h2>
-        <div className="search-container">
-          <input
-            type="text"
-            placeholder="Buscar libros..."
-            onChange={handleSearch}
-            className="search-input"
-          />
-          <FaSearch className="search-icon" />
-        </div>
+        <SearchBar onSearch={handleSearch} />
       </div>
       <div className="book-container">
         {books.length > 0 ? (
