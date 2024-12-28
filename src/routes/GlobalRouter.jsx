@@ -5,6 +5,7 @@ import BookDetails from "../views/BookDetails";
 import NotFound from "../views/NotFound";
 import { Overview } from "../views/Overview";
 import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
 
 function GlobalRouter() {
   return (
@@ -44,6 +45,7 @@ const Layout = ({ children }) => (
   <>
     <Header />
     {children}
+    <Footer />
   </>
 );
 

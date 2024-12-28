@@ -8,11 +8,8 @@ function Landing() {
   return (
     <div className="landing">
       <Link to={"/books"}>
-        {" "}
         <h1>Bienvenidos a Relatos de Papel</h1>
       </Link>
-      <span className="laser-pointer"></span>
-      <span className="laser-pointer-reverse"></span>{" "}
     </div>
   );
 }
