@@ -10,7 +10,6 @@ export const Overview = () => {
   const { filterBooks } = useBooks();
 
   const handleSearch = (value) => {
-    debugger
     filterBooks(value);
   };
   const filteredBooks = books.filter(book =>
@@ -20,7 +19,7 @@ export const Overview = () => {
   return (
     <div className="overview">
       <div className="header-section">
-        <h2 className="section-title">Libros Disponibles</h2>
+        <h3 className="section-title">Libros Disponibles</h3>
         <SearchBar onSearch={handleSearch} />
       </div>
       <div className="book-container">
