@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaShoppingCart, FaBars } from 'react-icons/fa';
 import '../styles/header.css';
+import { CartDropdown } from './CartDropdown';
+import { useLibrary } from '../context/LibraryContext';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { cart } = useLibrary();
 
   return (
     <header className="header">
@@ -18,12 +21,14 @@ export const Header = () => {
           <Link to="/categories">Categorías</Link>
           <Link to="/authors">Autores</Link>
         </div>
-
         <div className="header-actions">
+          <div className="cart-icon">
           <Link to="/cart" className="cart-icon">
-            <FaShoppingCart />
-            <span className="cart-count">0</span>
+          <FaShoppingCart />
           </Link>
+            <span className="cart-count">{cart.length}</span>
+            <CartDropdown />
+          </div>
           <button
             className="menu-button"
             onClick={() => setIsMenuOpen(!isMenuOpen)}

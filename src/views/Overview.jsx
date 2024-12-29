@@ -3,17 +3,16 @@ import "../styles/styles.css";
 import { Book } from "../components/Book";
 import { LinearProgress } from "@mui/material";
 import { SearchBar } from "../components/SearchBar";
-import { useBooks } from "../context/LibraryContext";
+import { useLibrary } from "../context/LibraryContext";
 
 export const Overview = () => {
-  const { books, searchTerm } = useBooks();
-  const { filterBooks } = useBooks();
+  const { books, searchTerm, filterBooks } = useLibrary();
 
   const handleSearch = (value) => {
     filterBooks(value);
   };
   const filteredBooks = books.filter(book =>
-    book.libro.toLowerCase().includes(searchTerm.toLowerCase())
+    book.titulo.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -28,11 +27,12 @@ export const Overview = () => {
             <Book
               key={book.id}
               id={book.id}
-              libro={book.libro}
+              titulo={book.titulo}
               titulo_original={book.titulo_original}
               fecha_de_lanzamiento={book.fecha_de_lanzamiento}
               autor={book.autor}
               descripcion={book.descripcion}
+              precio={book.precio}
             />
           ))
         ) : (

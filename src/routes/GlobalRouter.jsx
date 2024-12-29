@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "../views/Landing";
-import BookDetails from "../views/BookDetails";
+import BookDetails from "../components/BookDetails";
 import NotFound from "../views/NotFound";
 import { Overview } from "../views/Overview";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import { CartDetails } from "../components/CartDetails";
 
 function GlobalRouter() {
   return (
@@ -25,6 +26,14 @@ function GlobalRouter() {
           element={
             <Layout>
               <BookDetails />
+            </Layout>
+          }
+        />
+        <Route
+          path="/cart"
+          element={
+            <Layout>
+              <CartDetails/>
             </Layout>
           }
         />
