@@ -270,15 +270,6 @@
     "precio": 10.99
   },
   {
-    "id": 31,
-    "titulo": "Orgullo y prejuicio",
-    "titulo_original": "Pride and Prejudice",
-    "fecha_de_lanzamiento": "28 de enero de 1813",
-    "autor": "Jane Austen",
-    "descripcion": "La historia de Elizabeth Bennet y su compleja relación con el orgulloso Sr. Darcy. La novela examina temas de clase social, matrimonio y el papel de la mujer en la sociedad inglesa del siglo XIX.",
-    "precio": 10.99
-  },
-  {
     "id": 32,
     "titulo": "El señor de los anillos: La comunidad del anillo",
     "titulo_original": "The Lord of the Rings: The Fellowship of the Ring",
@@ -322,15 +313,6 @@
     "autor": "Umberto Eco",
     "descripcion": "En una abadía medieval, el monje franciscano Guillermo de Baskerville investiga una serie de misteriosos asesinatos mientras reflexiona sobre la religión, la filosofía y el poder del conocimiento.",
     "precio": 4.99
-  },
-  {
-    "id": 37,
-    "titulo": "1984",
-    "titulo_original": "Nineteen Eighty-Four",
-    "fecha_de_lanzamiento": "8 de junio de 1949",
-    "autor": "George Orwell",
-    "descripcion": "En una sociedad totalitaria, Winston Smith lucha contra la opresión del Gran Hermano y el Partido mientras busca la libertad y la verdad en un mundo controlado por la vigilancia y la manipulación.",
-    "precio": 16.99
   },
   {
     "id": 38,
