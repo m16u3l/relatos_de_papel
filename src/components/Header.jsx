@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaShoppingCart, FaBars } from 'react-icons/fa';
 import { CartDropdown } from './CartDropdown';
 import { useLibrary } from '../context/LibraryContext';
-import '../styles/header.css';
+import '../styles/headers.css';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
