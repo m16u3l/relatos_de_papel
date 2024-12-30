@@ -1,15 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLibrary } from '../context/LibraryContext';
 import { useNavigate } from 'react-router-dom';
 import { Cart } from './Cart';
 import '../styles/cart.css';
 
 export const CartDetails = () => {
-  const { cart, getCartTotal } = useLibrary();
+  const { cart, getCartTotal, clearCart } = useLibrary();
   const navigate = useNavigate();
+  const [showMessage, setShowMessage] = useState(false);
+
+  const handlePayment = () => {
+    setShowMessage(true);
+    setTimeout(() => {
+      clearCart();
+      navigate('/books');
+      setShowMessage(false);
+    }, 3000);
+  };
 
   return (
     <div className="cart-details-container">
+      {showMessage && (
+        <div className="payment-success-message">
+          ¡Pago completado con éxito!
+        </div>
+      )}
       <div className="cart-details">
         <h2>Carrito de Compras</h2>
         {cart.length === 0 ? (
@@ -32,7 +47,7 @@ export const CartDetails = () => {
               </div>
               <button
                 className="checkout-button"
-                onClick={() => navigate('/checkout')}
+                onClick={handlePayment}
               >
                 Proceder al Pago
               </button>
