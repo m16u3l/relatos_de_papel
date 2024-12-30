@@ -17,6 +17,7 @@ export const Book = ({ id, titulo, titulo_original, fecha_de_lanzamiento, autor,
       precio
     });
   };
+
   return (
     <Link to={`/books/${id}`} className="card">
       <h3>{titulo} ({titulo_original})</h3>

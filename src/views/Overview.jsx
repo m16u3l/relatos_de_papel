@@ -1,19 +1,29 @@
-import React from "react";
-import "../styles/styles.css";
+import React, { useEffect, useState } from "react";
 import { Book } from "../components/Book";
 import { LinearProgress } from "@mui/material";
 import { SearchBar } from "../components/SearchBar";
 import { useLibrary } from "../context/LibraryContext";
+import "../styles/styles.css";
 
 export const Overview = () => {
   const { books, searchTerm, filterBooks } = useLibrary();
+  const [loading, setLoading] = useState(true);
+  const [filteredBooks, setFilteredBooks] = useState([]);
 
   const handleSearch = (value) => {
     filterBooks(value);
   };
-  const filteredBooks = books.filter(book =>
-    book.titulo.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(true);
+      const filtered = books.filter(book =>
+        book.titulo.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+      setFilteredBooks(filtered);
+      setLoading(false);
+    }, 2000);
+  }, [books, searchTerm]);
 
   return (
     <div className="overview">
@@ -22,7 +32,9 @@ export const Overview = () => {
         <SearchBar onSearch={handleSearch} />
       </div>
       <div className="book-container">
-        {books.length > 0 ? (
+        {loading ? (
+          <LinearProgress className="linear-progress" />
+        ) : (
           filteredBooks.map((book) => (
             <Book
               key={book.id}
@@ -35,8 +47,6 @@ export const Overview = () => {
               precio={book.precio}
             />
           ))
-        ) : (
-          <LinearProgress className="linear-progress" />
         )}
       </div>
     </div>
