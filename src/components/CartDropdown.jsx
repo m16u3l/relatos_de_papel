@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLibrary } from '../context/LibraryContext';
-import '../styles/cart.css';
 import { Cart } from './Cart';
+import '../styles/cart.css';
 
 export const CartDropdown = () => {
   const { cart } = useLibrary();

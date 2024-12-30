@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaShoppingCart, FaBars } from 'react-icons/fa';
-import '../styles/header.css';
 import { CartDropdown } from './CartDropdown';
 import { useLibrary } from '../context/LibraryContext';
+import '../styles/header.css';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
