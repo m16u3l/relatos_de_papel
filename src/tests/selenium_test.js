@@ -81,4 +81,61 @@ describe("Pruebas de búsqueda de productos", function () {
       throw error;
     }
   });
+  it("debería completar el flujo de compra", async function () {
+    try {
+      const books = await driver.wait(
+        until.elementsLocated(By.className("card")),
+        5000
+      );
+
+      for (let i = 0; i < 3; i++) {
+        const addToCartButton = await books[i].findElement(
+          By.id(`add-to-cart-${i + 1}`)
+        );
+        await addToCartButton.click();
+
+        await driver.wait(
+          until.elementLocated(By.className("cart-count")),
+          2000
+        );
+      }
+
+      const cartCount = await driver.findElement(By.className("cart-count"));
+      const count = await cartCount.getText();
+      assert.strictEqual(count, "3", "El carrito debería tener 3 items");
+
+      const cartIcon = await driver.findElement(By.css(".cart-icon a"));
+      await cartIcon.click();
+
+      await driver.wait(until.elementLocated(By.className("cart-details-container")), 5000);
+
+      const cartItems = await driver.findElements(By.className("cart-item"));
+      assert.strictEqual(
+        cartItems.length,
+        6,
+        "Deberían haber 3 items en la página del carrito"
+      );
+
+      const checkoutButton = await driver.findElement(
+        By.className("checkout-button")
+      );
+      await checkoutButton.click();
+      const successMessage = await driver.wait(
+        until.elementLocated(By.className("payment-success-message")),
+        5000
+      );
+
+      const messageText = await successMessage.getText();
+      assert.strictEqual(
+        messageText,
+        "¡Pago completado con éxito!",
+        "Debería mostrar mensaje de éxito"
+      );
+
+      await driver.wait(until.elementLocated(By.className("overview")), 5000);
+    } catch (error) {
+      console.error("Error en la prueba de flujo de compra:", error);
+      throw error;
+    }
+  });
 });

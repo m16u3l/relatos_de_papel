@@ -19,13 +19,17 @@ export const Book = ({ id, titulo, titulo_original, fecha_de_lanzamiento, autor,
   };
 
   return (
-    <Link to={`/books/${id}`} className="card">
+    <Link id={id} to={`/books/${id}`} className="card">
       <h3>{titulo} ({titulo_original})</h3>
       <p><strong>Autor:</strong> {autor}</p>
       <p><strong>Fecha de lanzamiento:</strong> {fecha_de_lanzamiento}</p>
       <p><strong>Descripción:</strong> {descripcion}</p>
       <p><strong>Precio:</strong> {precio}</p>
-      <button onClick={handleAddToCart} className="add-to-cart-btn">
+      <button 
+        id={`add-to-cart-${id}`}
+        onClick={handleAddToCart} 
+        className="add-to-cart-btn"
+      >
         Añadir al carrito
       </button>
     </Link>
