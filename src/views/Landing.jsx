@@ -4,7 +4,7 @@ import useRedirection from "../hooks/useRedirection";
 import "../styles/landing.css";
 
 function Landing() {
-  useRedirection("/books", 5000);
+  useRedirection("/books", 3000);
 
   return (
     <div className="landing-container">

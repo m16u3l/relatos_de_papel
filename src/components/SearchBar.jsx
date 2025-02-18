@@ -7,6 +7,7 @@ export const SearchBar = ({ onSearch }) => {
 
       <input
         type="text"
+        className="search-input"
         placeholder="Buscar libro por título..."
         onChange={(e) => onSearch(e.target.value)}
       />
