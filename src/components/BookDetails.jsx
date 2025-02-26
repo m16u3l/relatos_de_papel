@@ -17,17 +17,17 @@ const BookDetails = () => {
     addToCart({
       id: book.id,
       titulo: book.titulo,
-      titulo_original: book.titulo_original,
       autor: book.autor,
       precio: book.precio
     });
   };
+
   return (
     <div className="book-details">
-      <h2 className="book-name">{book.titulo} ({book.titulo_original})</h2>
+      <h2 className="book-name">{book.titulo}</h2>
       <p><strong>Autor:</strong> {book.autor}</p>
-      <p><strong>Fecha de lanzamiento:</strong> {book.fecha_de_lanzamiento}</p>
-      <p><strong>Descripción:</strong> {book.descripcion}</p>
+      <p><strong>Año de lanzamiento:</strong> {book.anio}</p>
+      <p><strong>Descripción:</strong> {book.resumen}</p>
 
       <button onClick={handleAddToCart} className="add-to-cart-btn">
         Añadir al carrito

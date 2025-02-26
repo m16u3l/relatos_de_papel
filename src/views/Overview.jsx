@@ -40,10 +40,9 @@ export const Overview = () => {
               key={book.id}
               id={book.id}
               titulo={book.titulo}
-              titulo_original={book.titulo_original}
-              fecha_de_lanzamiento={book.fecha_de_lanzamiento}
+              anio={book.anio}
               autor={book.autor}
-              descripcion={book.descripcion}
+              resumen={book.resumen}
               precio={book.precio}
             />
           ))

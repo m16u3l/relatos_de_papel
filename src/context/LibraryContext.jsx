@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
-import booksData from '../data/books.json';
+import { bookService } from '../services/booksService';
 
 const LibraryContext = createContext();
 
@@ -7,9 +7,25 @@ export const LibraryProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [books, setBooks] = useState([]);
   const [cart, setCart] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    setBooks(booksData);
+    const fetchBooks = async () => {
+      try {
+        setIsLoading(true);
+        const data = await bookService.getBooks();
+        setBooks(data);
+        setError(null);
+      } catch (err) {
+        setError('Error al cargar los libros');
+        console.error('Error fetching books:', err);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchBooks();
   }, []);
 
   const filterBooks = (term) => {
@@ -52,8 +68,17 @@ export const LibraryProvider = ({ children }) => {
 
   return (
     <LibraryContext.Provider value={{
-      cart, addToCart, removeFromCart, getCartTotal,
-      searchTerm, filterBooks, books, setBooks, clearCart
+      cart, 
+      addToCart, 
+      removeFromCart, 
+      getCartTotal,
+      searchTerm, 
+      filterBooks, 
+      books, 
+      setBooks, 
+      clearCart,
+      isLoading,
+      error
     }}>
       {children}
     </LibraryContext.Provider>
