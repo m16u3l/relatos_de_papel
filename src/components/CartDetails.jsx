@@ -32,7 +32,7 @@ export const CartDetails = () => {
         clearCart();
         navigate('/books');
         setShowMessage(false);
-      }, 3000);
+      }, 1000);
     } catch (err) {
       setError('Error al procesar el pago');
       console.error('Payment error:', err);

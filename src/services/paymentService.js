@@ -1,8 +1,30 @@
+import booksData from '../data/books.json';
+
 const PAYMENT_API_URL = process.env.REACT_APP_PAYMENT_API_URL || 'http://localhost:9191/msbookpayments/api';
 
 export const paymentService = {
   async processSale(items) {
     try {
+      if (!PAYMENT_API_URL) {
+        console.warn('Payment API URL not set, processing locally');
+        const updatedBooks = booksData.map(book => {
+          const cartItem = items.find(item => item.id === book.id);
+          if (cartItem) {
+            return {
+              ...book,
+              stock: book.stock - cartItem.quantity
+            };
+          }
+          return book;
+        });
+
+        console.log('Updated books data:', updatedBooks);
+        return {
+          success: true,
+          message: 'Venta procesada localmente'
+        };
+      }
+
       const formattedItems = items.map(item => ({
         bookId: item.id+"",
         cant: item.quantity,

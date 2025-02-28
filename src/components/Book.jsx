@@ -34,7 +34,7 @@ export const Book = ({ id, titulo, anio, autor, resumen, precio, stock = 0 }) =>
       <p><strong>Autor:</strong> {autor}</p>
       <p><strong>Año de lanzamiento:</strong> {anio}</p>
       <p><strong>Descripción:</strong> {resumen}</p>
-      <p><strong>Precio:</strong> {precio}</p>
+      <p><strong>Precio:</strong> ${precio}</p>
       <p><strong>Stock disponible:</strong> {stock - getCartItemQuantity()}</p>
       {isAvailableForCart() ? (
         <button 
