@@ -31,7 +31,7 @@ export const paymentService = {
 
   async processSale(items) {
     try {
-      if (!PAYMENT_API_URL) {
+      if (!process.env.REACT_APP_PAYMENT_API_URL) {
         console.warn('Payment API URL not set, processing locally');
         const updatedBooks = this.updateLocalStorage(items);
         
@@ -49,7 +49,7 @@ export const paymentService = {
         totalPrice: parseFloat(item.total)
       }));
 
-      const response = await fetch(`${PAYMENT_API_URL}/ventas`, {
+      const response = await fetch(`${PAYMENT_API_URL}/api/ventas`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
