@@ -1,13 +1,22 @@
 import booksData from '../data/books.json';
 
 const API_URL = process.env.REACT_APP_CATALOGUE_API_URL || 'http://localhost:9191/ms-books-catalogue';
+const STORAGE_KEY = 'books_data';
 
 export const bookService = {
+  initializeLocalStorage() {
+    if (!localStorage.getItem(STORAGE_KEY)) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(booksData));
+    }
+  },
+
   async getBooks() {
     try {
       if (!process.env.REACT_APP_CATALOGUE_API_URL) {
-        console.warn('API URL not set, using local data');
-        return booksData;
+        console.warn('API URL not set, using local storage data');
+        this.initializeLocalStorage();
+        const localData = localStorage.getItem(STORAGE_KEY);
+        return JSON.parse(localData);
       }
 
       const response = await fetch(`${API_URL}/libros`, {
@@ -30,7 +39,15 @@ export const bookService = {
       return data;
     } catch (error) {
       console.error('Error fetching books:', error);
-      return booksData;
+      this.initializeLocalStorage();
+      const localData = localStorage.getItem(STORAGE_KEY);
+      return JSON.parse(localData);
+    }
+  },
+
+  updateLocalBooks(updatedBooks) {
+    if (!process.env.REACT_APP_CATALOGUE_API_URL) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(updatedBooks));
     }
   }
 };
