@@ -1,6 +1,6 @@
 import booksData from '../data/books.json';
 
-const PAYMENT_API_URL = process.env.REACT_APP_PAYMENT_API_URL || 'http://localhost:9191/msbookpayments/api';
+const PAYMENT_API_URL = process.env.REACT_APP_PAYMENT_API_URL || 'http://localhost:9191/msbookpayments';
 const STORAGE_KEY = 'books_data';
 
 export const paymentService = {
