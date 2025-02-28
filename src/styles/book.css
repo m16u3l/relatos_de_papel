@@ -45,3 +45,13 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
+
+.out-of-stock {
+  color: #dc3545;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  margin-top: 10px;
+  background-color: #ffe6e6;
+  border-radius: 4px;
+}

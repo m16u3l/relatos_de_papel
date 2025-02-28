@@ -30,7 +30,6 @@ export const bookService = {
       return data;
     } catch (error) {
       console.error('Error fetching books:', error);
-      console.warn('Falling back to local data');
       return booksData;
     }
   }

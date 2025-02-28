@@ -6,6 +6,7 @@
     "anio": "11 de julio de 1960",
     "autor": "Harper Lee",
     "resumen": "La historia se desarrolla en un pequeño pueblo del sur de Estados Unidos y sigue a Scout Finch, cuya infancia se ve marcada por las tensiones raciales cuando su padre, Atticus Finch, defiende a un hombre negro acusado injustamente de violación. La novela explora temas de justicia, prejuicio y moralidad.",
+    "stock": 100,
     "precio": 12.99
   },
   {
@@ -15,6 +16,7 @@
     "anio": "29 de julio de 1954",
     "autor": "J. R. R. Tolkien",
     "resumen": "Frodo Bolsón hereda un anillo mágico que contiene un poder oscuro y destructivo. Junto a un grupo de aliados, conocido como la Comunidad del Anillo, debe emprender un peligroso viaje para destruir el anillo en el Monte del Destino antes de que caiga en manos del malvado Señor Oscuro, Sauron.",
+    "stock": 100,
     "precio": 9.99
   },
   {
@@ -24,6 +26,7 @@
     "anio": "1981",
     "autor": "Gabriel García Márquez",
     "resumen": "En un pequeño pueblo, se narra la historia del asesinato de Santiago Nasar, un joven acusado de deshonrar a una mujer. A pesar de que todos sabían que iba a ser asesinado, nadie hizo nada por evitarlo. La novela explora temas de honor, destino y la inacción colectiva.",
+    "stock": 100,
     "precio": 21.99
   },
   {
@@ -33,6 +36,7 @@
     "anio": "28 de enero de 1813",
     "autor": "Jane Austen",
     "resumen": "La novela cuenta la historia de Elizabeth Bennet, una joven inteligente y decidida que enfrenta las expectativas sociales y familiares de la Inglaterra del siglo XIX. Su relación con el reservado y orgulloso Sr. Darcy evoluciona desde el prejuicio mutuo hasta el amor verdadero.",
+    "stock": 100,
     "precio": 15.49
   },
   {
@@ -42,6 +46,7 @@
     "anio": "30 de mayo de 1967",
     "autor": "Gabriel García Márquez",
     "resumen": "La historia sigue a la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo. Mezcla realismo mágico con temas como el amor, la soledad y el destino, mientras relata la fundación y caída del pueblo.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -51,6 +56,7 @@
     "anio": "8 de junio de 1949",
     "autor": "George Orwell",
     "resumen": "En un mundo distópico controlado por un gobierno totalitario, Winston Smith lucha por encontrar libertad y verdad en medio de la opresión y la vigilancia constante. La novela es una crítica política que explora temas de censura y manipulación.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -60,6 +66,7 @@
     "anio": "11 de julio de 1960",
     "autor": "Harper Lee",
     "resumen": "La novela cuenta la historia de Scout Finch y su hermano Jem en un pequeño pueblo del sur de Estados Unidos durante la Gran Depresión. Su padre, Atticus Finch, defiende a un hombre negro acusado injustamente de violar a una mujer blanca, explorando temas de racismo e injusticia social.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -69,6 +76,7 @@
     "anio": "16 de enero de 1605",
     "autor": "Miguel de Cervantes",
     "resumen": "Don Quijote, un hidalgo obsesionado con los titulos de caballería, decide convertirse en caballero andante. Acompañado por su fiel escudero, Sancho Panza, vive una serie de aventuras mientras lucha contra molinos de viento y persigue ideales caballerescos en un mundo que ha cambiado.",
+    "stock": 100,
     "precio": 12.29
   },
   {
@@ -78,6 +86,7 @@
     "anio": "14 de septiembre de 2008",
     "autor": "Suzanne Collins",
     "resumen": "En un futuro distópico, Katniss Everdeen se ofrece como voluntaria para participar en los Juegos del Hambre, un evento televisado en el que los tributos luchan a muerte. La novela explora temas de supervivencia, opresión y rebelión contra un gobierno tiránico.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -87,6 +96,7 @@
     "anio": "10 de abril de 1925",
     "autor": "F. Scott Fitzgerald",
     "resumen": "La historia sigue a Jay Gatsby, un millonario misterioso que organiza fastuosas fiestas mientras persigue su amor perdido, Daisy Buchanan. La novela examina el sueño americano, la decadencia moral y la obsesión con la riqueza en los años 20.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -96,6 +106,7 @@
     "anio": "1 de enero de 1818",
     "autor": "Mary Shelley",
     "resumen": "La historia sigue a Víctor Frankenstein, un científico que crea un ser monstruoso a partir de partes humanas. La criatura busca aceptación y venganza, explorando temas como la ética científica, el abandono y la responsabilidad moral.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -105,6 +116,7 @@
     "anio": "26 de noviembre de 1865",
     "autor": "Lewis Carroll",
     "resumen": "Alicia cae en la madriguera de un conejo y entra en un mundo mágico lleno de criaturas extrañas y situaciones surrealistas. La novela explora la imaginación, la lógica y el absurdo en un cuento fantástico para todas las edades.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -114,6 +126,7 @@
     "anio": "2001",
     "autor": "Carlos Ruiz Zafón",
     "resumen": "En la Barcelona de posguerra, un joven llamado Daniel Sempere descubre un misterioso titulo en el Cementerio de los titulos Olvidados. Su búsqueda para descubrir el destino del autor lo lleva a un laberinto de secretos, amores perdidos y tragedias.",
+    "stock": 100,
     "precio": 11.99
   },
   {
@@ -123,6 +136,7 @@
     "anio": "2005",
     "autor": "Markus Zusak",
     "resumen": "Ambientada en la Alemania nazi, la historia sigue a Liesel Meminger, una niña adoptada que encuentra consuelo robando titulos y compartiéndolos con otros. La novela está narrada por la Muerte y explora temas de esperanza en tiempos oscuros.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -132,6 +146,7 @@
     "anio": "17 de agosto de 1945",
     "autor": "George Orwell",
     "resumen": "Una sátira política que representa una granja donde los animales derrocan a los humanos en busca de igualdad, solo para descubrir que algunos animales terminan siendo más iguales que otros. La novela critica los regímenes totalitarios.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -141,6 +156,7 @@
     "anio": "1988",
     "autor": "Paulo Coelho",
     "resumen": "La historia sigue a Santiago, un pastor andaluz que emprende un viaje en busca de un tesoro en Egipto. En el camino, aprende lecciones sobre la vida, el destino y la importancia de seguir los sueños propios.",
+    "stock": 100,
     "precio": 12.99
   },
   {
@@ -150,6 +166,7 @@
     "anio": "1963",
     "autor": "Julio Cortázar",
     "resumen": "Una novela experimental que invita al lector a elegir su propio camino a través de los capítulos. Explora la vida de Horacio Oliveira en París y Buenos Aires, abordando temas de amor, arte y filosofía.",
+    "stock": 100,
     "precio": 14.99
   },
   {
@@ -159,6 +176,7 @@
     "anio": "19 de octubre de 1953",
     "autor": "Ray Bradbury",
     "resumen": "En un futuro distópico donde los titulos están prohibidos, Guy Montag trabaja como bombero encargado de quemarlos. Su vida cambia cuando comienza a cuestionar el sistema y a buscar conocimiento en los titulos prohibidos.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -168,6 +186,7 @@
     "anio": "1890",
     "autor": "Oscar Wilde",
     "resumen": "La historia sigue a Dorian Gray, un joven cuya belleza se mantiene intacta mientras un retrato suyo envejece y refleja los efectos de sus actos inmorales. La novela explora temas como la vanidad, el hedonismo y la corrupción.",
+    "stock": 100,
     "precio": 9.99
   },
   {
@@ -177,6 +196,7 @@
     "anio": "26 de mayo de 1897",
     "autor": "Bram Stoker",
     "resumen": "La historia de Jonathan Harker, quien viaja a Transilvania para encontrarse con el misterioso Conde Drácula. Pronto descubre los oscuros secretos del conde y se embarca en una lucha contra el mal vampírico.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -186,6 +206,7 @@
     "anio": "26 de junio de 1997",
     "autor": "J. K. Rowling",
     "resumen": "El día de su cumpleaños, Harry Potter descubre que es hijo de dos conocidos hechiceros, de los que ha heredado poderes mágicos. Debe asistir a una famosa escuela de magia y hechicería, donde entabla una amistad con dos jóvenes que se convertirán en sus compañeros de aventura. Durante su primer año en Hogwarts, descubre que un malévolo y poderoso mago llamado Voldemort está en busca de una piedra filosofal que alarga la vida de quien la posee.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -195,6 +216,7 @@
     "anio": "2 de julio de 1998",
     "autor": "J. K. Rowling",
     "resumen": "Harry Potter y los estudiantes de segundo año investigan una malévola amenaza para sus compañeros de clases de Hogwarts, una amenazante bestia que se esconde dentro del castillo.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -204,6 +226,7 @@
     "anio": "8 de julio de 1999",
     "autor": "J. K. Rowling",
     "resumen": "El tercer año de estudios de Harry en Hogwarts se ve amenazado por la fuga de Sirius Black de la prisión de Azkaban. Al parecer, se trata de un peligroso mago que fue cómplice de Lord Voldemort y que intentará vengarse de Harry Potter.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -213,6 +236,7 @@
     "anio": "8 de julio de 2000",
     "autor": "J. K. Rowling",
     "resumen": "Hogwarts se prepara para el Torneo de los Tres Magos, en el que competirán tres escuelas de hechicería. Para sorpresa de todos, Harry Potter es elegido para participar en la competencia, en la que deberá luchar contra dragones, internarse en el agua y enfrentarse a sus mayores miedos.",
+    "stock": 100,
     "precio": 12.59
   },
   {
@@ -222,6 +246,7 @@
     "anio": "21 de junio de 2003",
     "autor": "J. K. Rowling",
     "resumen": "En su quinto año en Hogwarts, Harry descubre que muchos integrantes de la comunidad de magos no conocen la verdad acerca de su encuentro con Lord Voldemort. Cornelius Fudge, ministro de magia, designa a Dolores Umbridge como maestra de defensa contra de las artes oscuras porque cree que el profesor Dumbledore planea apoderarse de su trabajo. Pero sus enseñanzas son inadecuadas, por lo que Harry prepara a los estudiantes para defender la escuela en contra del mal.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -231,6 +256,7 @@
     "anio": "16 de julio de 2005",
     "autor": "J. K. Rowling",
     "resumen": "Harry descubre un poderoso titulo y, mientras trata de descubrir sus orígenes, colabora con Dumbledore en la búsqueda de una serie de objetos mágicos que ayudarán en la destrucción de Lord Voldemort.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -240,6 +266,7 @@
     "anio": "21 de julio de 2007",
     "autor": "J. K. Rowling",
     "resumen": "Harry, Ron y Hermione se van a una peligrosa misión para localizar y destruir el secreto de la inmortalidad y destrucción de Voldemort - los Horrocruces. Solos, sin la guía de sus profesores o la protección del Profesor Dumbledore, los tres amigos deben apoyarse el uno en el otro más que nunca. Pero hay Fuerzas Oscuras en medio que amenazan con separarlos. Harry Potter se está acercando cada vez más a la tarea para la que se ha preparado desde el primer día que pisó Hogwarts: la última batalla con Voldemort.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -249,6 +276,7 @@
     "anio": "30 de julio de 2016",
     "autor": "J. K. Rowling",
     "resumen": "El segundo hijo de Harry entró a Hogwarts, pero en Slytherin. Su relación con Harry cada vez es peor y se hizo muy amigo del hijo de Draco, Scorpius Malfoy que se dice que es el hijo de Lord Voldemort",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -258,6 +286,7 @@
     "anio": "30 de mayo de 1967",
     "autor": "Gabriel García Márquez",
     "resumen": "La historia de la familia Buendía en el mítico pueblo de Macondo, donde se entrelazan el amor, la tragedia y la soledad a lo largo de varias generaciones. La novela es un referente del realismo mágico.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -267,6 +296,7 @@
     "anio": "1866",
     "autor": "Fiódor Dostoyevski",
     "resumen": "La novela sigue a Raskólnikov, un estudiante empobrecido que comete un asesinato y luego lidia con la culpa y el remordimiento, explorando temas como la moral, el arrepentimiento y la redención.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -276,6 +306,7 @@
     "anio": "29 de julio de 1954",
     "autor": "J. R. R. Tolkien",
     "resumen": "Frodo Bolsón hereda un anillo mágico que debe destruir para evitar que caiga en manos del Señor Oscuro, Sauron. La novela es una épica aventura de fantasía que explora la amistad, el sacrificio y el poder.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -285,6 +316,7 @@
     "anio": "14 de noviembre de 1883",
     "autor": "Robert Louis Stevenson",
     "resumen": "Jim Hawkins encuentra un mapa del tesoro y se embarca en una peligrosa aventura en busca de riquezas, enfrentándose a piratas como el infame Long John Silver. Es un clásico de la literatura de aventuras.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -294,6 +326,7 @@
     "anio": "1982",
     "autor": "Isabel Allende",
     "resumen": "La novela narra la vida de la familia Trueba a lo largo de varias generaciones en un país latinoamericano. Mezcla realismo mágico con política y romance para explorar el amor, la memoria y la dictadura.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -303,6 +336,7 @@
     "anio": "1989",
     "autor": "Ken Follett",
     "resumen": "Ambientada en la Inglaterra del siglo XII, la novela sigue la construcción de una catedral mientras explora las luchas políticas, religiosas y personales de los personajes involucrados en el proyecto.",
+    "stock": 100,
     "precio": 10.99
   },
   {
@@ -312,6 +346,7 @@
     "anio": "1980",
     "autor": "Umberto Eco",
     "resumen": "En una abadía medieval, el monje franciscano Guillermo de Baskerville investiga una serie de misteriosos asesinatos mientras reflexiona sobre la religión, la filosofía y el poder del conocimiento.",
+    "stock": 100,
     "precio": 4.99
   },
   {
@@ -321,6 +356,7 @@
     "anio": "6 de abril de 1943",
     "autor": "Antoine de Saint-Exupéry",
     "resumen": "Un piloto perdido en el desierto conoce a un pequeño príncipe de otro planeta. La historia es una reflexión sobre el amor, la amistad y la importancia de ver con el corazón en lugar de con los ojos.",
+    "stock": 100,
     "precio": 2.99
   }
 ]

@@ -44,6 +44,7 @@ export const Overview = () => {
               autor={book.autor}
               resumen={book.resumen}
               precio={book.precio}
+              stock={book.stock}
             />
           ))
         )}

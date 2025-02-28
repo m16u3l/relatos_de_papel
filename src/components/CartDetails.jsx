@@ -2,27 +2,48 @@ import React, { useState } from 'react';
 import { useLibrary } from '../context/LibraryContext';
 import { useNavigate } from 'react-router-dom';
 import { Cart } from './Cart';
+import { paymentService } from '../services/paymentService';
+import { bookService } from '../services/booksService';
 import '../styles/cart.css';
 
 export const CartDetails = () => {
-  const { cart, getCartTotal, clearCart } = useLibrary();
+  const { cart, getCartTotal, clearCart, setBooks } = useLibrary();
   const navigate = useNavigate();
   const [showMessage, setShowMessage] = useState(false);
+  const [error, setError] = useState(null);
 
-  const handlePayment = () => {
-    setShowMessage(true);
-    setTimeout(() => {
-      clearCart();
-      navigate('/books');
+  const refreshBooks = async () => {
+    try {
+      const updatedBooks = await bookService.getBooks();
+      setBooks(updatedBooks);
+    } catch (err) {
+      console.error('Error refreshing books:', err);
+    }
+  };
+
+  const handlePayment = async () => {
+    try {
       setShowMessage(false);
-    }, 3000);
+      setError(null);
+      await paymentService.processSale(cart);
+      setShowMessage(true);
+      await refreshBooks();
+      setTimeout(() => {
+        clearCart();
+        navigate('/books');
+        setShowMessage(false);
+      }, 3000);
+    } catch (err) {
+      setError('Error al procesar el pago');
+      console.error('Payment error:', err);
+    }
   };
 
   return (
     <div className="cart-details-container">
-      {showMessage && (
-        <div className="payment-success-message">
-          ¡Pago completado con éxito!
+      {(showMessage || error) && (
+        <div className={`message ${showMessage ? 'success' : 'error'}`}>
+          {showMessage ? '¡Pago completado con éxito!' : error}
         </div>
       )}
       <div className="cart-details">
@@ -49,7 +70,7 @@ export const CartDetails = () => {
                 className="checkout-button"
                 onClick={handlePayment}
               >
-                Proceder al Pago
+                Pagar
               </button>
             </div>
           </>
