@@ -13,7 +13,6 @@ export const bookService = {
   async getBooks() {
     try {
       if (!process.env.REACT_APP_CATALOGUE_API_URL) {
-        console.warn('API URL not set, using local storage data');
         this.initializeLocalStorage();
         const localData = localStorage.getItem(STORAGE_KEY);
         return JSON.parse(localData);
